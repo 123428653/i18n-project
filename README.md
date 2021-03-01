@@ -330,12 +330,10 @@ export default i18n
 ```
 
 ## 国际化日期格式 （黑盒子三：Intl.DateTimeFormat）
-各个国家有各个国家的(<code style="color:red">~~国旗~~</code>)日期。
+国际化中肯定少不了日期的本地化，各个国家有各个国家的(<code style="color:red">~~国旗~~</code>)日期。
 
-国际化中肯定少不了日期的本地化。
 
 日期国际化也是有黑盒子的：<code style="color:red">[Intl.DateTimeFormat](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat)</code>，
-
 用法如下：
 
 ```js
